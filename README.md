@@ -1,4 +1,4 @@
-# mixed-messages = Guru Advice
+# Mixed-Messages = Guru Advice
 ## What does it do
 A script that generates __silly__ advice from randomly generated sentence blocks.
 
