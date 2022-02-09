@@ -9,4 +9,13 @@ let randomize = (array) => {
     let i = Math.floor(Math.random() * array.length);
     return array[i];
 };
-console.log(randomize(message.who), randomize(message.order), randomize(message.what), randomize(message.where));
+const messageOutput = document.getElementById('message');
+const adviceButton = document.getElementById('get-advice');
+adviceButton.addEventListener( 'click', () => {
+    let outputText = (randomize(message.who)+ ' ' + randomize(message.order)+ ' ' + randomize(message.what)+ ' ' + randomize(message.where));
+
+     messageOutput.innerText = outputText;
+})
+
+
+
