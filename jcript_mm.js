@@ -6,7 +6,7 @@ const message = {
     what: ['paint', 'sing for', 'jump over', 'dance around', 'kiss', 
     'write a poem about', 'kick', 'hug', 'skip over'],
     where: ['the Eiffel Tower.', 'the Pyramids.', 'a dog kennel.', 
-    'Mount Everest.', 'a camel', 'the supermarket cashier']
+    'Mount Everest.', 'a camel.', 'the supermarket cashier.']
 };
 // Function to generate a random phrase 
 let randomize = (array) => {
